@@ -13,22 +13,6 @@ export const Statistics = ({ title, stats }) => {
             <span className={css.percentage}>{item.percentage}%</span>
           </li>
         ))}
-        {/* <li className={css.item}>
-          <span className={css.label}>.docx</span>
-          <span className={css.percentage}>4%</span>
-        </li>
-        <li className={css.item}>
-          <span className={css.label}>.mp3</span>
-          <span className={css.percentage}>14%</span>
-        </li>
-        <li className={css.item}>
-          <span className={css.label}>.pdf</span>
-          <span className={css.percentage}>41%</span>
-        </li>
-        <li className={css.item}>
-          <span className={css.label}>.mp4</span>
-          <span className={css.percentage}>12%</span>
-        </li> */}
       </ul>
     </section>
   );
